@@ -21,10 +21,10 @@ Key Points:
 .
 ├── Dataset Generation/     # Scripts for data augmentation (translation-retranslation pipelines).
 ├── Datasets/               # Original, augmented, and filtered datasets.
-├── HyperParameter tuning Python/ # Optuna-based hyperparameter optimization scripts.
-├── Model-Saving/           # Fine-tuned transformer models and checkpoints.
+├── HyperParameter tuning Python/ # Optuna-based hyperparameter optimization scripts run with python dataset to select the best model.
+├── Model-Saving/           # Fine-tuned transformer models saved to huggingface.
 ├── roBERTa-large-hyperparameter-java-pharo/ # Scripts for RoBERTa tuning on specific languages.
-└── final-score.ipynb       # Results, evaluation metrics, and plots.
+└── final-score.ipynb       # Results, evaluation metrics.
 ```
 ## Note
 
