@@ -87,7 +87,7 @@ All notebooks and scripts in this repository were executed in the Kaggle environ
 **Note:** The Kaggle environment comes pre-installed with most dependencies. However, if you need additional packages, install them using the `!pip install` command in a notebook cell.
 
 
-## How to Use (locally)
+## How to Use (locally):
 
 1. Download the repository:
 
@@ -109,4 +109,9 @@ All notebooks and scripts in this repository were executed in the Kaggle environ
    ```python
    pd.read_csv('path-to-your-local-dataset/filename.csv')
    ```
-
+4. Remove wandb login.
+   - Comment out
+   ```python
+   # import wandb
+   # wandb.init()
+   ``
