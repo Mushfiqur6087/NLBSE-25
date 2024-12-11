@@ -33,14 +33,18 @@ All notebooks and scripts in this repository were executed in the Kaggle environ
 ---
 
 ### Example: Uploading a `.ipynb` File to Kaggle
+1. Download the repository:
+   ```bash
+   git clone https://github.com/Mushfiqur6087/NLBSE-25.git
+   cd NLBSE-25.git
 
-1. **Go to Kaggle**:
+2. **Go to Kaggle**:
    - Log in to your Kaggle account and navigate to the **Code** section.
 
-2. **Create a New Notebook**:
+3. **Create a New Notebook**:
    - Click on the **New Notebook** button in the top-right corner.
 
-3. **Upload Your Notebook**:
+4. **Upload Your Notebook**:
    - In the new notebook interface, click the **File** dropdown menu in the top-left corner.
    - Select **Upload Notebook** from the dropdown.
    - Choose the `.ipynb` file from your local computer and upload it.
