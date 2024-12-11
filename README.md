@@ -25,3 +25,13 @@ Key Points:
 ├── Model-Saving/           # Fine-tuned transformer models and checkpoints.
 ├── roBERTa-large-hyperparameter-java-pharo/ # Scripts for RoBERTa tuning on specific languages.
 └── final-score.ipynb       # Results, evaluation metrics, and plots.
+```
+## How to Use
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Mushfiqur6087/NLBSE-25.git
+   cd NLBSE-25
+2. 
+   
