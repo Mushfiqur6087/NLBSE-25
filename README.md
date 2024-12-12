@@ -1,6 +1,6 @@
-# NLBSE-25: Enhancing Multi-Label Code Comment Classification
+# NLBSE-25: Code Comment Classification with Data Augmentation and Transformer-Based Models
 
-Welcome to the repository for **"Enhancing Multi-Label Code Comment Classification with Data Augmentation and Transformer-Based Architectures"**, submitted as a solution for the NLBSE'25 Code Comment Classification Tool Competition. This repository hosts all relevant scripts, datasets, and model configurations used in the project.
+Welcome to the repository for **"Code Comment Classification with Data Augmentation and Transformer-Based Models"**, submitted as a solution for the NLBSE'25 Code Comment Classification Tool Competition. This repository hosts all relevant scripts, datasets, and model configurations used in the project.
 
 ---
 
@@ -10,7 +10,7 @@ Code comment classification is vital for software comprehension and maintenance.
 
 Key Points:
 - Translation-retranslation for **linguistic diversity** in data augmentation.
-- Transformer architectures (**BERT, RoBERTa, CodeBERT, XLNet**) for multi-label classification.
+- Transformer architectures (**BERT, RoBERTa, CodeBERT, DistilBERT**) for multi-label classification.
 - Tailored frameworks for Java, Python, and Pharo databases.
 
 ---
@@ -28,7 +28,7 @@ Key Points:
 ```
 ## Note
 
-All notebooks and scripts in this repository were executed in the Kaggle environment using **Kaggle T4 * 2 GPUs** and **P100 GPU**. If you plan to run the notebooks in Kaggle, the platform provides an ideal environment with pre-installed dependencies and powerful GPUs, requiring minimal setup.
+All notebooks and scripts in this repository were executed in the Kaggle environment using **Kaggle T4 * 2 GPUs** . If you plan to run the notebooks in Kaggle, the platform provides an ideal environment with pre-installed dependencies and powerful GPUs, requiring minimal setup.
 
 ---
 
@@ -65,15 +65,10 @@ All notebooks and scripts in this repository were executed in the Kaggle environ
    - Go to **Settings** in the notebook interface.
    - Enable **Accelerator** and select **GPU (T4)**.
 
-5. **Notebook-Specific GPU Requirements**:
-   - For `XLnet-base.ipynb` and `XLnet-large.ipynb`, use **GPU P100**:
-     - Go to **Settings** in the notebook interface.
-     - Select **GPU (P100)**.
-
-6. **Running the Notebook**:
+5. **Running the Notebook**:
    - Execute the notebook cells sequentially to run the experiments.
 
-7. **Setting Up Secrets for W&B and Hugging Face**:
+6. **Setting Up Secrets for W&B and Hugging Face**:
    - Generate API keys from:
      - **Weights & Biases (W&B)**: Go to your W&B account settings > **API Keys**.
      - **Hugging Face**: Go to your Hugging Face account settings > **Access Tokens**.
@@ -81,7 +76,7 @@ All notebooks and scripts in this repository were executed in the Kaggle environ
      - Navigate to the **Add-ons** menu > **Secrets**.
      - Add the secrets for W&B and Hugging Face using the names specified in the notebook (e.g., `WANDB_API_KEY` and `HUGGINGFACE_API_KEY`).
 
-8. **Adjust File Paths**:
+7. **Adjust File Paths**:
    - Update the dataset file paths in the notebook. For example:
      ```python
      pd.read_csv('/kaggle/input/your-dataset-name/filename.csv')
