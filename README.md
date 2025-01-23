@@ -24,11 +24,11 @@ Key Points:
 ├── HyperParameter tuning Python/ # Optuna-based hyperparameter optimization scripts run with python dataset to select the best model.
 ├── Model-Saving/           # Fine-tuned transformer models saved to huggingface.
 ├── roBERTa-large-hyperparameter-java-pharo/ # Scripts for RoBERTa tuning on specific languages.
-└── final-score.ipynb       # Results, evaluation metrics.
+└── prediction.ipynb       # Results, evaluation metrics.
 ```
 ## Note
 
-All notebooks and scripts in this repository were executed in the Kaggle environment using **Kaggle T4 * 2 GPUs** . If you plan to run the notebooks in Kaggle, the platform provides an ideal environment with pre-installed dependencies and powerful GPUs, requiring minimal setup.
+All notebooks and scripts in this repository were executed in the Kaggle environment using **Kaggle T4 * 2 GPUs** . If you plan to run the notebooks in Kaggle, the platform provides an ideal environment with pre-installed dependencies and powerful GPUs, requiring minimal setup. prediction.ipynb was run in google colab. You can also run all the training and fine-tuning notebooks in google colab.
 
 ---
 
