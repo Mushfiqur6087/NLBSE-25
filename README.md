@@ -2,6 +2,7 @@
 
 Welcome to the repository for **"Code Comment Classification with Data Augmentation and Transformer-Based Models"**, submitted as a solution for the NLBSE'25 Code Comment Classification Tool Competition. This repository hosts all relevant scripts, datasets, and model configurations used in the project.
 
+Find the full paper in here: [Code comment classification](https://lsiddiqsunny.github.io/public/NLBSE2025.pdf)
 ---
 
 ## Abstract
